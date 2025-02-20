@@ -42,7 +42,7 @@ This task explores **image feature extraction** using **custom convolutional fil
 ### 📷 **Example Visualization:**  
 💡 **Before & After Applying Filters**  
 
-| ![original](images/original.png) | 
+| ![original](task1.png) | 
 
 ---
 
@@ -67,7 +67,7 @@ After Pooling (2x2): (4, 4)
 📷 **Example Pooled Image Output:**  
 | Original Feature Map | Max-Pooled (2x2) | Avg-Pooled (2x2) |
 |----------------------|------------------|------------------|
-| ![original](images/feature_map.png) |
+| ![original](task2.png) |
 
 ---
 
@@ -102,7 +102,7 @@ Epoch 1000: Accuracy = 93.89%
 ```
 
 📈 **Loss Graphs:**  
-![loss_graph](images/loss_graph.png)  
+![loss_graph](task4.png)  
 
 ---
 

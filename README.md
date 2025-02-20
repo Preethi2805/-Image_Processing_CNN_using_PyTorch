@@ -1,8 +1,3 @@
-📸 **Image Processing & CNN Classification with PyTorch**  
-This project explores **feature extraction in image processing**, **pooling operations**, and **CNN-based classification** using **PyTorch** and the **load_digits dataset**. It involves implementing **custom convolution filters, pooling techniques, and a CNN model**, then comparing its performance with an **SVM classifier**.
-
----
-
 ### **README.md**  
 
 # 🖼️ **Feature Extraction & CNN Classification with PyTorch**  

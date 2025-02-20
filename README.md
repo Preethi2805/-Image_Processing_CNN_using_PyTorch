@@ -41,9 +41,8 @@ This task explores **image feature extraction** using **custom convolutional fil
 
 ### 📷 **Example Visualization:**  
 💡 **Before & After Applying Filters**  
-| Original Image | Edge Detection | Blurred Image |
-|---------------|---------------|--------------|
-| ![original](images/original.png) | ![edges](images/edge_detection.png) | ![blur](images/blur.png) |
+
+| ![original](images/original.png) | 
 
 ---
 
@@ -68,7 +67,7 @@ After Pooling (2x2): (4, 4)
 📷 **Example Pooled Image Output:**  
 | Original Feature Map | Max-Pooled (2x2) | Avg-Pooled (2x2) |
 |----------------------|------------------|------------------|
-| ![original](images/feature_map.png) | ![maxpool](images/maxpool.png) | ![avgpool](images/avgpool.png) |
+| ![original](images/feature_map.png) |
 
 ---
 
@@ -86,9 +85,6 @@ This task involves implementing a **Convolutional Neural Network (CNN)** from sc
 | Fully Connected (FC2) | 84 | - | ReLU |
 | Output Layer | 10 | - | Softmax |
 
-### ✍ **Hand-Drawn Architecture Sketch:**  
-📷 *[Insert image of the CNN architecture]*  
-
 ---
 
 ## 🎯 **Task 4: Training the CNN on load_digits Dataset**  
@@ -102,7 +98,7 @@ This task involves implementing a **Convolutional Neural Network (CNN)** from sc
 
 📉 **Loss Trends Over Time:**  
 ```
-Epoch 1000: Training Loss = 0.002, Validation Loss = 0.003
+Epoch 1000: Accuracy = 93.89%
 ```
 
 📈 **Loss Graphs:**  
@@ -119,13 +115,11 @@ Epoch 1000: Training Loss = 0.002, Validation Loss = 0.003
 ### 📊 **Model Comparison Results:**  
 | Model | Test Accuracy |
 |-------|--------------|
-| **CNN** | **98.5%** |
-| **SVC (gamma=0.001)** | **95.7%** |
+| **CNN** | **93.89%** |
+| **SVC (gamma=0.001)** | **97.04%** |
 
 ### 📝 **Observations & Improvements:**  
-1️⃣ **CNN outperforms SVC** because it **learns hierarchical features**, whereas SVC treats pixels as independent values.  
-2️⃣ **SVC struggles with feature representation**, while CNN **captures spatial dependencies**.  
-3️⃣ **SVC can be improved** by **tuning gamma & using a deep feature extractor** instead of raw pixel values.  
+**The SVM model is performing better compared to the CNN model.**
 
 ---
 
